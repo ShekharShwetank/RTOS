@@ -1,5 +1,7 @@
 # RTOS
-RTOS for Raspberry Pi 5 
+RTOS for Raspberry Pi 5 built during the CATERPILLAR TECH CHALLENGE 2025
+
+# [WINNERS CATERPILLAR TECH CHALLENGE 2025](https://www.linkedin.com/posts/shwetank-shekhar-002b9b203_caterpillartechchallenge-caterpillar100-rtos-activity-7357453575540658177-fU2y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADP3l0IB_pF2cEhbDCVtuh9m-Vzfyl9vxcI)
 
 ## Overview
 
@@ -22,7 +24,7 @@ In this project, the RT kernel is used as the foundation for a **real-time monoc
 * HDMI display (to verify boot and logs)
 * GPIO peripherals (optional for testing): LED, buzzer
 
-### oftware
+### Software
 
 * Raspberry Pi OS (64-bit, Debian Bookworm)
 * Kernel source: Raspberry Pi Linux `rpi-6.15.y` branch
