@@ -15,7 +15,7 @@ In this project, the RT kernel is used as the foundation for a **real-time monoc
 
 ### Hardware
 
-* Raspberry Pi 5 Model B Rev 1.1 (8GB LPDDR4X-4267 SDRAM)
+* Raspberry Pi 5 (8GB LPDDR4X-4267 SDRAM)
 * 64GB SanDisk microSD card (OS + kernel)
 * Optional: 128GB USB 3.2 storage (datasets/logging)
 * Official Raspberry Pi Active Cooler (recommended)
