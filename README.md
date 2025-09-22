@@ -3,6 +3,20 @@ RTOS for Raspberry Pi 5 built during the CATERPILLAR TECH CHALLENGE 2025
 
 # [WINNERS CATERPILLAR TECH CHALLENGE 2025](https://www.linkedin.com/posts/shwetank-shekhar-002b9b203_caterpillartechchallenge-caterpillar100-rtos-activity-7357453575540658177-fU2y?utm_source=share&utm_medium=member_desktop&rcm=ACoAADP3l0IB_pF2cEhbDCVtuh9m-Vzfyl9vxcI)
 
+## Operating System & Kernel Details
+1. Operating System: Raspberry Pi OS (64-bit), based on Debian Bookworm.
+2. Kernel Version String: 6.15.0-rc7-v8-16k-NTP+
+3. Kernel Type: Custom compiled with PREEMPT_RT (Full Real-Time Preemption).
+4. Architecture: aarch64 (64-bit).
+5. Build Method: Natively compiled on the Raspberry Pi 5.
+6. Key Kernel Configurations :
+   * Full Real-Time Preemption (CONFIG_PREEMPT_RT=y)
+   * Timer Frequency set to 1000 Hz (CONFIG_HZ_1000=y)
+   * Full Dynamic Ticks (CONFIG_NO_HZ_FULL=y)
+   * Default CPU Frequency Governor set to "performance"
+   * Kernel PPS (Pulse Per Second) timing support (CONFIG_NTP_PPS=y)
+   * PPS client support for GPIO (CONFIG_PPS_CLIENT_GPIO=y)
+
 ## Overview
 
 This repository documents the **complete process of building, deploying, and validating a PREEMPT\_RT real-time kernel** for the **Raspberry Pi 5**.
